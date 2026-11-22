@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=server
-Exec=sh -c "{ test -d site || egg create-app next site; } && cd site && npm run dev"
+Exec=sh -c "{ test -d site || egg create-app next site; } && cd site && bun dev"
 Terminal=true
