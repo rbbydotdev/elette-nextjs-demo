@@ -9,7 +9,7 @@ elette clones this repository into a new project and opens three panes:
 | Pane | What it runs |
 |---|---|
 | server | `egg create-app next site` the first time, then `npm run dev` in `site/` |
-| pi | `npx -y --ignore-scripts @earendil-works/pi-coding-agent`: the coding agent, in this project |
+| pi | `vault run --optional -- npx -y --ignore-scripts @earendil-works/pi-coding-agent`: the coding agent, with your model keys from the vault when you have one |
 | preview | the app on port 3000 |
 
 The first start makes the app and installs its packages, which takes a few minutes. Edit the app in the editor or ask pi to; the dev server reloads the preview.
